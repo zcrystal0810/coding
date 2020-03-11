@@ -273,11 +273,11 @@ bool neuron_mapping_dynamic(vector<MyMarker*> &inswc1, vector<MyMarker*> & inswc
 					if (tree2[i]) { delete(tree2[i]); tree2[i] = NULL;}
 			}
 
-//            QString txt_name ="/home/penglab/Desktop/sujun/GAN/release_workingspace/1000_blast/800/1.txt";
-//            ofstream file;
-//            file.open(txt_name.toStdString().c_str(),ios::out | ios::app );
-//            file<<score<<endl;
-//            file.close();
+            QString txt_name ="/home/penglab/Desktop/sujun/GAN/release_workingspace/1000_blast/1000/local5.txt";
+            ofstream file;
+            file.open(txt_name.toStdString().c_str(),ios::out | ios::app );
+            file<<score<<endl;
+            file.close();
 
             cout<<"tree align done"<<endl;
             cout<<"score="<<score<<endl;
