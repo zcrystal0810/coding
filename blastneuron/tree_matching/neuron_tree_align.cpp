@@ -273,7 +273,7 @@ bool neuron_mapping_dynamic(vector<MyMarker*> &inswc1, vector<MyMarker*> & inswc
 					if (tree2[i]) { delete(tree2[i]); tree2[i] = NULL;}
 			}
 
-            QString txt_name ="/home/penglab/Desktop/sujun/GAN/release_workingspace/1000_blast/1000/local1_5.txt";
+            QString txt_name ="/home/penglab/Desktop/sujun/GAN/release_workingspace/1000_blast/1000/local1_4.txt";
             ofstream file;
             file.open(txt_name.toStdString().c_str(),ios::out | ios::app );
             file<<score<<endl;
