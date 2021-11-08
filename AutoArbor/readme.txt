@@ -6,4 +6,6 @@ Through the post-processing, we have done the following things:
 3. Group small clusters, e.g some with only one branch
 
 The command of using the package is as below:
-python <AutoArbor script> --filename <swcfile>
+python <AutoArbor script> --filename <SWC file>
+
+The output is a SWC file contains clusters with different denoted in different types (visually presented in different colors). You can get the separated swc files based on the type number (column No.2).
